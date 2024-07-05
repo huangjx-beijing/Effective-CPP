@@ -15,3 +15,6 @@ add_executable(MECPP-6 src/6.cpp)
 ##########异常
 # 9.利用析构函数避免泄漏资源
 add_executable(MECPP-9 src/9.cpp)
+
+# 10.在构造函数内阻止资源泄漏
+add_executable(MECPP-10 src/10.cpp)
